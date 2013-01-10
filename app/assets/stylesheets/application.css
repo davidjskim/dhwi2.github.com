@@ -14,17 +14,22 @@
 html {background-color: #816687}
 
 body {
+	font-family: verdana, sans-serif;
 	width: 70%;
 margin: 0 auto;
 background-color: #fff;
 padding: 20px 40px;
-border: 3px solid #ccc;
+border: 5px solid #ccc;
 }
 
 header {
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
+}
+
+header h1 {
+	font-size: 40px;
 }
 
 nav ul {
@@ -44,3 +49,23 @@ header a:link {color: #fff;}
 	header a:focus {color: #fff;}
 	header a:active {color: #fff;}
 
+table {
+	width: 100%;
+}
+
+thead th {
+	border-bottom: 2px solid #ccc; 
+	text-align: left;
+}
+
+th, 
+td {padding: 5px 0;
+	}
+
+tbody tr {
+	background-color: #eee; 
+}
+
+tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
