@@ -23,19 +23,26 @@ border: 5px solid #ccc;
 }
 
 header {
+	
+	background-image: url(breakfast.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #333;
-	color: #fff;
+	color: #050505;
 	padding: 10px;
+
 }
 
 header h1 {
 	font-size: 40px;
+
 }
 
 nav ul {
 	list-style: none;
 	margin-left: 0;
 	padding-left:0;
+	color: #050505;
 
 }
 
@@ -43,11 +50,11 @@ nav li {
 	display: inline;
 }
 
-header a:link {color: #fff;}
-	header a:visited {color: #fff;}
-	header a:hover {color: #fff;}
-	header a:focus {color: #fff;}
-	header a:active {color: #fff;}
+header a:link {color: #050505;}
+	header a:visited {color: #F20C0C;}
+	header a:hover {color: #040404;}
+	header a:focus {color: #333333;}
+	header a:active {color: #222222;}
 
 table {
 	width: 100%;
@@ -69,3 +76,9 @@ tbody tr {
 tbody tr:nth-child(even) {
 	background-color: #ddd;
 }
+
+a:link {}
+a:visited {}
+a:hover {}
+a:focus {}
+a:active {}
