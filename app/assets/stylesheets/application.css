@@ -77,6 +77,19 @@ tbody tr:nth-child(even) {
 	background-color: #ddd;
 }
 
+nav ul,
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left:0;
+
+}
+
+nav li,
+footer li {
+	display: inline;
+}
+
 a:link {}
 a:visited {}
 a:hover {}
