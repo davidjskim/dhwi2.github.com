@@ -1,4 +1,6 @@
 Dhwi2::Application.routes.draw do
+  get "pages/about"
+
   resources :votes
 
 
