@@ -11,3 +11,36 @@
  *= require_self
  *= require_tree .
  */
+html {background-color: #816687}
+
+body {
+	width: 70%;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px 40px;
+border: 3px solid #ccc;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left:0;
+
+}
+
+nav li {
+	display: inline;
+}
+
+header a:link {color: #fff;}
+	header a:visited {color: #fff;}
+	header a:hover {color: #fff;}
+	header a:focus {color: #fff;}
+	header a:active {color: #fff;}
+
