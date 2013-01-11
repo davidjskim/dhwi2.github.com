@@ -30,12 +30,13 @@ header {
 	background-color: #333;
 	color: #050505;
 	padding: 10px;
+	text-align: justify;
 
 }
 
 header h1 {
-	font-size: 40px;
-
+	font-size: 48px;
+	text-align: justify;
 }
 
 nav ul {
